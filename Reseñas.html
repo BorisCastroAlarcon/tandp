@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reseñas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Reseñas.css" />
+  </head>
+  <body>
+
+    <div id="header" class="menuheader">
+      <iframe src="header.html" width="100%" height="54" frameborder="0"></iframe>
+  </div>
+
+  <div class="contenidoVal">
+    <div class="container mt-0">
+
+      <div class="row justify-content-center">
+
+        <div class="col-12 col-md-6 text center bg light p-3">
+          <div class="resena mx-auto">
+            <p class="h1">Reseñas</h1>
+          </div>
+         
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="container mt-5">
+        <div id="carouselExample" class="carousel slide">
+
+          
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-12 d-flex justify-content-around">
+    
+              <div class="purple-box"> 
+                <div class="col-md-6">
+                               <img class="fotoAvatar" src="./imagenes/personita.png" alt="" class="img-fluid" />
+
+                </div>               
+     
+                <div class="col-md-6">
+                 <p class="presentacion">Talents & Pymes</p>
+                <p class="presentacion">Pymes</p>
+              </div>
+              <div class="col-md-2">
+                <p class="presentacion descripcion">#Amistoso</p>
+                <p class="presentacion descripcion">#Responsable</p>
+                <p class="presentacion descripcion">#Petlover</p>
+              </div>
+
+                
+
+              </div>
+              <div class="purple-box">
+                <div class="col-md-22">
+                  <div class="purple-box box-comment">
+                    <p class="parrafoOpinion">Daniela Alegría</p>
+                  </div>
+                </div>
+
+
+                <div class="purple-box box-comment">
+                  <p class="parrafoOpinion">Muy buena página, me ayudó a contactar con un gran profesional!</p>
+                </div>
+
+                <div class="purple-box box-comment">
+                  <p class="parrafoOpinion">Camila Vallejos</p>
+                </div>
+
+                <div class="purple-box box-comment">
+                  <p class="parrafoOpinion">Gracias a ellos logré sacar mi Pyme adelante, Agradecida!!</p>
+                </div>
+
+              </div>
+    
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-md-6 col-12 d-flex justify-content-around">
+    
+            <div class="purple-box"> 
+              <div class="col-md-6">
+                             <img class="fotoAvatar" src="./imagenes/personita.png" alt="" class="img-fluid" />
+
+              </div>               
+   
+              <div class="col-md-6">
+             <p class="presentacion">Talents & Pymes</p>
+              <p class="presentacion">Talentos</p>
+              </div>
+              
+              <div class="col-md-2">
+                <p class="presentacion descripcion">#Amistos</p>
+                <p class="presentacion descripcion">#Responsables</p>
+                <p class="presentacion descripcion">#Proactivos</p>
+              </div>
+
+            </div>
+            <div class="purple-box">
+              <div class="col-md-22">
+                <div class="purple-box box-comment">
+                  <p class="parrafoOpinion">Maximiliano Tapia</p>
+                </div>
+              </div>
+
+
+              <div class="purple-box box-comment">
+                <p class="parrafoOpinion">Logré encontrar una buena pyme para asesorar</p>
+              </div>
+
+              <div class="purple-box box-comment">
+                <p class="parrafoOpinion">Valentina Goldsworthy</p>
+              </div>
+
+              <div class="purple-box box-comment">
+                <p class="parrafoOpinion">Una pyme de gastronomía me contactó y logramos hacer cosas incleibles.</p>
+              </div>
+
+            </div>
+  
+          </div>
+        </div>
+      </div>
+
+          <button
+            class="carousel2-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+     
+          >
+          <img src="imagenes/BOTONIZQUIERDA.png"/>
+          </button>
+          <button
+            class="carousel2-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+          <img src="imagenes/BOTONDERECHA.png"/>
+          </button>
+        </div>
+      </div>
+
+</div>
+    </div>
+
+          <!-- Enlaza los archivos de Bootstrap JS desde un CDN -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="include-html.js"></script>
+    
+          <!-- Script personalizado para manejar la navegación manualmente -->
+          <script>
+            var myCarousel = new bootstrap.Carousel(
+              document.getElementById("carouselExample"),
+              {
+                interval: false,
+              }
+            );
+          </script>
+  </body>
+</html>

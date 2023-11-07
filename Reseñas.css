@@ -1,0 +1,199 @@
+body {
+  background-color: #f0efec;
+  margin: 0%;
+}
+
+.barra-horizontal {
+  background-color: #4c1e62;
+  overflow: hidden;
+}
+
+.opcion {
+  float: right;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.opcion:hover {
+  background-color: #555;
+}
+
+.busqueda {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5px 40px;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.lupa {
+  position: absolute;
+  margin: 9px;
+  width: 15px;
+  height: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  float: left;
+}
+
+.fondo {
+  width: 99%;
+  height: 99%;
+  position: fixed;
+}
+
+.contenidoVal {
+  background-image: url("./imagenes/typFondo.jpg");
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  line-height: 40px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.botonIzquierda {
+  float: left;
+  width: 50px;
+  height: auto;
+  margin-top: 150px;
+  margin-right: 70px;
+}
+
+.botonDerecha {
+  float: right;
+  width: 50px;
+  height: auto;
+  margin-top: 150px;
+  margin-left: 70px;
+}
+
+.resena {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  background-color: rgba(110, 0, 250, 0.5);
+  border-radius: 15px;
+  width: 400px;
+  height: 55px;
+}
+
+.opiniones {
+  line-height: 20px;
+  float: right;
+  margin-top: 100px;
+  width: 300px;
+}
+
+.carousel2-control-next {
+  right: 0;
+}
+
+.carousel2-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  /*color: #fff;*/
+  text-align: center;
+  border: none;
+
+  background: rgba(110, 0, 250, 0);
+  /*
+  opacity: .5;
+  transition: opacity .15s ease;*/
+}
+
+.carousel2-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  /*color: #fff;*/
+  border: none;
+  text-align: center;
+  background: rgba(110, 0, 250, 0);
+  /*opacity: .5;
+  transition: opacity .15s ease;*/
+}
+
+.fotoAvatar {
+  width: 40%;
+  float: left;
+}
+
+.presentacion {
+  line-height: 30px;
+  font-family: verdana;
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+  width: 400px;
+}
+
+.descripcion {
+  color: #fff;
+  width: 200px;
+  float: left;
+  text-align: left;
+}
+
+.comentario {
+  font-size: medium;
+  text-align: justify;
+}
+
+.purple-box {
+  background-color: rgba(110, 0, 250, 0.5);
+  padding: 10px;
+  margin-top: 10px; /* Espacio superior para separar del título */
+  margin-bottom: 20px; /* Espacio inferior para separar del siguiente contenido */
+  /*color: white;  Color del texto */
+  border-radius: 15px;
+  margin-inline: 15px;
+}
+
+.box-comment {
+  background-color: rgb(95, 3, 137);
+  color: white;
+}
+
+.col-md-6 {
+  width: 100%;
+}
+
+.parrafoOpinion {
+  text-align: left;
+  font-weight: 700;
+}
+
+.h1 {
+  font-weight: 700;
+}
+
+.menuheader {
+  width: 100%;
+  background-color: rgba(110, 0, 250, 0);
+}

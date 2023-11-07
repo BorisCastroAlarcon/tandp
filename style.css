@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0efec;
+  margin: 0%;
+}
+
+.barra-horizontal {
+  background-color: #4c1e62;
+  overflow: hidden;
+}
+
+.opcion {
+  float: right;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.opcion:hover {
+  background-color: #555;
+}
+
+.busqueda {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5px 40px;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.lupa {
+  position: absolute;
+  margin: 9px;
+  width: 15px;
+  height: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  float: left;
+}
+
+.fondo {
+  width: 99%;
+  height: 99%;
+  position: fixed;
+}
+
+.typ2 {
+  position: absolute;
+}
+
+.contenido {
+  background-image: url("./imagenes/typFondo.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  line-height: 40px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.nosotross {
+  --float: left;
+  width: 600px;
+  height: auto;
+  margin-top: 180px;
+  margin-left: 60px;
+  text-align: justify;
+  font-size: small;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
+  display: inline-block;
+}
+
+.logoGrande {
+  float: right;
+  width: 500px;
+  height: auto;
+  margin-top: 50px;
+  margin-right: 60px;
+}
+
+.menuheader {
+  width: 100%;
+  background-color: rgba(110, 0, 250, 0);
+}
+
+.cualidades {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 700;
+  line-height: 0.4;
+  text-align: left;
+}
+
+.descripcionTalentoDiv {
+  text-align: center;
+  padding: 1.5em;
+  width: 90%;
+}
+
+.descripcionTalento {
+  color: white;
+  font-weight: 700;
+}
+
+.purple-box-talento {
+  background-color: rgba(110, 0, 250, 0.5);
+  padding: 10px;
+  margin-top: 10px; /* Espacio superior para separar del título */
+  margin-bottom: 20px; /* Espacio inferior para separar del siguiente contenido */
+  /*color: white;  Color del texto */
+  border-radius: 15px;
+  margin-inline: 15px;
+  width: 50%;
+}
+
+.linksPerfiles {
+  color: black;
+  font-weight: 700;
+}
+
+.contactar {
+  position: relative;
+  background-color: purple;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5%;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
